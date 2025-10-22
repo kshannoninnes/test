@@ -8,14 +8,13 @@ generator client {
 }
 
 model Book {
-  Author Int
-  Title String
-  Edition Int
-  Id Int @default(autoincrement()) @unique
+  isbn Int @id @default(autoincrement())
+  title String
+  author Int
 }
 
 model Author {
-  Id Int @default(autoincrement()) @unique
-  First Name String?
-  Last Name String
+  id String @id
+  firstName String
+  lastName Int?
 }
