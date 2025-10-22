@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  testapp:
+    build: .
+    image: testapp:latest
+    ports:
+      - "28002:3000"
+    
