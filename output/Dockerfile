@@ -1,7 +1,8 @@
-FROM node:20-alpine
-WORKDIR .
+FROM 1
+WORKDIR 2
 COPY package*.json ./
-RUN npm install
+RUN 4
 COPY . .
-EXPOSE 3000
-CMD ["npm", "start"]
+RUN 5
+EXPOSE 3
+CMD ["6"]
