@@ -1,4 +1,3 @@
-import { Author } from './Author';
-import { book } from './book';
+import { Book } from './Book';
 
-export { Author, book };
+export { Book };
