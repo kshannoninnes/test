@@ -1,9 +1,11 @@
 version: '3.9'
 
 services:
-  111:
+  9:
     build: .
-    image: 111:latest
+    image: 9:latest
     ports:
-      - "222:33"
-    
+      - "88:333"
+    environment:
+      777: 6666
+      1234: 56789
