@@ -1,9 +1,9 @@
 version: '3.9'
 
 services:
-  testapp:
+  77:
     build: .
-    image: testapp:latest
+    image: 77:latest
     ports:
-      - "28002:3000"
+      - "888:3"
     
