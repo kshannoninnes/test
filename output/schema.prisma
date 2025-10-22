@@ -14,7 +14,7 @@ model Book {
 }
 
 model Author {
-  id String @id
+  id Int @id @default(autoincrement())
   firstName String
-  lastName Int?
+  lastName String?
 }
