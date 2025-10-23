@@ -1,8 +1,8 @@
-FROM 1
-WORKDIR 22
+FROM node:18
+WORKDIR src
 COPY package*.json ./
-RUN 4444
+RUN npm install
 COPY . .
-RUN 55555
-EXPOSE 333
-CMD ["666666"]
+RUN npm run build
+EXPOSE 3000
+CMD ["npm", "start"]
