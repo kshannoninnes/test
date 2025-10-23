@@ -5,6 +5,6 @@ services:
     build: .
     image: my-app:latest
     ports:
-      - "98572:98323"
+      - "22313:22177"
     environment:
       NODE_ENV: production
