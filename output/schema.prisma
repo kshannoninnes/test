@@ -1,0 +1,18 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model jsdbgjkd {
+  hello Int @id @default(autoincrement()) @unique
+  world Int
+}
+
+model Commit {
+  fgfhdg Boolean
+  adgadgag Int @id @default(autoincrement()) @unique
+}
